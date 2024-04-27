@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import Cheber from "@/public/Cheber.png"
 
 export const links = [
   {
@@ -35,72 +36,84 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Обучение на курсах Makers Incubator",
+    location: "Бишкек, Makers",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "На курсах нас обучали  HTML, CSS, REACT, NEXT JS, J QUERY, REST API, После окончания курсов сразу же устроился на стажировку Makers Incubator",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Стажер Front-End Developer",
+    location: "Бишкек, Makers",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Я стажировался frontend Разработчиком где я научился Правильно выстраивать Архитектру Frontend приложения, Оптимизацию ",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Junior Front-End Developer",
+    location: "Бишкек, Aksoft",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Сейчас я являюсь Junior разработчиком компании Aksoft, Принимал участие в проекте Cheber, где переписывал фронтенд с использованием Next.js для повышения оптимизацию. Dentapp Также Писал CRM для стоматологических клиник, представляющую собой платформу для онлайн-букинга. В процессе работы проводил CEO оптимизацию",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - по наст время",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "DentApp",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Dentapp: (CRM) помогает стоматологам эффективно планировать расписание приема пациентов в течение дня.",
+    tags: ["React", "Tailwind", "styled-components", "Redux", "Rtk Query", "MUI", "Full Calendar"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Cheber",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Уникальный сервис онлайн записи для барбершопов, салонов красоты и медицинских центров в Бишкеке",
+    tags: ["TypeScript", "Next.js", "Tailwind", "Redux", "Rtk Query", "React Query", "MUI", "eslint"],
+    imageUrl: Cheber,
   },
   {
     title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["TypeScript", "Next.js", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "Redux",
+  "Redux-Saga",
+  "Redux-Toolkit",
   "Next.js",
-  "Node.js",
-  "Git",
   "Tailwind",
+  "Node.js",
+  "HTML",
+  "CSS",
+  "Git",
+  "J Query",
   "Prisma",
   "MongoDB",
-  "Redux",
   "GraphQL",
   "Apollo",
   "Express",
-  "PostgreSQL",
+  "React-Query",
+  "RTK Query",
+  "Vue Js",
+  "AWS",
+  "Bootstrap",
+  "FireBase",
+  "React Native",
+  "Swiper",
+  "Full Calendar",
+  "styled-components",
   "Python",
   "Django",
   "Framer Motion",

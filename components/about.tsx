@@ -17,32 +17,17 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Обо мне</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Привет! Меня зовут Сулайман. Я начал свой путь в мире программирования на курсах в Makers Incubator. Во время обучения я погрузился в изучение различных языков программирования и технологий, и это вызвало у меня огромный интерес к созданию программного обеспечения.
+
+        После завершения обучения я получил возможность стажироваться в одной из IT-компаний, где я смог применить свои знания на практике и освоиться в профессиональной среде. Это был захватывающий опыт, который помог мне углубить свои навыки и развиться как разработчик.
+
+        Сейчас я работаю в компании Aksoft в качестве Frontend разработчика. Здесь я продолжаю расширять свои знания и опыт, работая с технологиями, такими как React, Next Js, Node.js и MongoDB. Я увлечен созданием инновационных решений и стремлюсь к постоянному росту как специалист в области разработки программного обеспечения."
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Когда я не программирую, мне нравится писать пет проекты разных задач и уровня . Я также люблю изучать новые вещи и играть в бильярд. В настоящее время я изучаю Docker and Aws.
       </p>
     </motion.section>
   );
