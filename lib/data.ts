@@ -37,7 +37,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Обучение на курсах Makers Incubator",
-    location: "Бишкек, Makers",
+    location: "Бишкек, Makers ",
     description:
       "На курсах нас обучали  HTML, CSS, REACT, NEXT JS, J QUERY, REST API, После окончания курсов сразу же устроился на стажировку Makers Incubator",
     icon: React.createElement(LuGraduationCap),
