@@ -4,9 +4,11 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { useTranslation } from "react-i18next";
 
 export default function About() {
   const { ref } = useSectionInView("About");
+  const {t} = useTranslation()
 
   return (
     <motion.section
@@ -17,7 +19,7 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>Обо мне</SectionHeading>
+      <SectionHeading>{t('aboutMe')}</SectionHeading>
       <p className="mb-3">
         Привет! Меня зовут Сулайман. Я начал свой путь в мире программирования на курсах в Makers Incubator. Во время обучения я погрузился в изучение различных языков программирования и технологий, и это вызвало у меня огромный интерес к созданию программного обеспечения.
 

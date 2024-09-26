@@ -9,11 +9,15 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import Sulaiman from '@/public/Me.jpg'
+import Sulaiman from "@/public/Me.jpg";
+
+import { useTranslation } from "react-i18next";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+
+  const { t } = useTranslation();
 
   return (
     <section
@@ -59,12 +63,12 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-2 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span>
-          Привет, я Сулайман. Я фронтенд-разработчик с 1-летним опытом. Мне нравится создавать сайты и приложения. Мой основной инструмент - React (Next.js).
+          {t('intro')}
         </span>
       </motion.h1>
 
@@ -84,7 +88,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Напишите мне{" "}
+          {t('textMe')}{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -93,7 +97,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Скачать резюме{" "}
+          {t('resume')}{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 

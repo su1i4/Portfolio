@@ -3,9 +3,11 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import Aplha from '@/public/Alpha.png'
 import Cheber from "@/public/Cheber.png"
+import Bssmart from '@/public/bismart.png'
+import Logistic from '@/public/logistic.png'
+import DentApp from '@/public/dentapp.png'
 
 export const links = [
   {
@@ -63,26 +65,35 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "DentApp",
-    description:
-      "Dentapp: (CRM) помогает стоматологам эффективно планировать расписание приема пациентов в течение дня.",
-    tags: ["React", "Tailwind", "styled-components", "Redux", "Rtk Query", "MUI", "Full Calendar"],
-    imageUrl: corpcommentImg,
+    key: 'bsmart',
+    title: 'BS Smart',
+    tags: ["React", "Typescript", "styled-components", "Mobx", "React Query", "antd", "react-i18next", "axios", "chart.js"],
+    imageUrl: Bssmart
   },
   {
+    key: 'dentapp',
+    title: "DentApp", 
+    tags: ["React", "Tailwind", "styled-components", "Redux", "Rtk Query", "MUI", "Full Calendar"],
+    imageUrl: DentApp,
+  },
+  {
+    key: 'cheber',
     title: "Cheber",
-    description:
-      "Уникальный сервис онлайн записи для барбершопов, салонов красоты и медицинских центров в Бишкеке",
     tags: ["TypeScript", "Next.js", "Tailwind", "Redux", "Rtk Query", "React Query", "MUI", "eslint"],
     imageUrl: Cheber,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    key: 'alphacargo',
+    title: "Alpha Cargo",
     tags: ["TypeScript", "Next.js", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: Aplha,
   },
+  {
+    key: 'logistic',
+    title: "Logistic",
+    tags: ["NextJs", "NodeJs", "Next Ui", "Framer", "Tailwind"],
+    imageUrl: Logistic
+  }
 ] as const;
 
 export const skillsData = [
