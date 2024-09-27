@@ -9,10 +9,20 @@ const resources = {
       "resume": 'Скачать резюме',
       "aboutMe": 'Обо мне',
       "projects": "Проекты",
+      "skill": 'Мой стэк',
+      "experience": 'Опыт работы',
+      "contact": 'Связаться Со Мной',
+      "contactText": 'Пожалуйста, свяжитесь со мной напрямую по адресу sulaimanmind862@gmail.com или через эту форму.',
+      "email": 'Ваш email',
+      "message": 'Ваше сообщение',
+      "submit": 'Отправить',
+      "rights": '2024 su1i4. Все права защищены.',
+      "site": 'Об этом сайте',
+      "infoSite": 'создано с помощью React и Next.js (App Router и Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, хостинга Vercel.',
       "projectsList": {
         "bsmart": {
           "title": "Buisiness smart",
-          "description": 'Business Smart — это мощная система для управления бизнесом, которая предоставляет все необходимые инструменты для автоматизации учета, финансов, логистики и управления персоналом. Платформа позволяет работать с реальными налоговыми документами, обеспечивая соответствие требованиям законодательства и упрощая взаимодействие с государственными органами. Идеально подходит для предприятий любого размера, предоставляя гибкие решения для оптимизации процессов и аналитики в реальном времени.'
+          "description": 'Business Smart — это мощная система для управления бизнесом, которая предоставляет все необходимые инструменты для автоматизации учета, финансов'
         },
         "dentapp": {
           "title": "DentApp",
@@ -24,12 +34,20 @@ const resources = {
         },
         "alphacargo": {
           "title": 'AlphaCargo',
-          "description": 'AlphaCargo — это международная логистическая компания, специализирующаяся на перевозке товаров и грузов между странами. Мы предлагаем надежные и эффективные решения для транспортировки, обеспечивая безопасность и своевременную доставку'
+          "description": 'AlphaCargo — это логистическая компания, специализирующаяся на перевозке товаров и грузов между странами. Мы предлагаем надежные и эффективные решения для транспортировки, обеспечивая безопасность и своевременную доставку'
         },
         "logistic": {
           "title": 'logistic',
-          "description": 'Logistic — это инновационная платформа, которая помогает перевозчикам находить грузы для транспортировки. Мы объединяем грузовладельцев и транспортные компании, предлагая удобные инструменты для поиска актуальных предложений на рынке перевозок.'
+          "description": 'Logistic — это инновационная платформа, которая помогает перевозчикам находить грузы для транспортировки. Мы объединяем грузовладельцев, предлагая удобные инструменты для поиска актуальных предложений на рынке перевозок.'
         }
+      },
+      "header": {
+        "Home": 'Главная',
+        "About": 'Обо мне',
+        "Projects": 'Проекты',
+        "Skills": 'Стэк',
+        "Experience": 'Опыт',
+        "Contact": 'Контакты'
       }
     }
   },
@@ -40,10 +58,20 @@ const resources = {
       "resume": 'Download resume',
       "aboutMe": 'About me',
       "projects": 'Projects',
+      "skill": 'Skills',
+      "experience": 'My Experience',
+      "contact": 'Contact Me',
+      "contactText": 'Please contact me directly at sulaimanmind862@gmail.com or through this form',
+      "email": 'Your email',
+      "message": 'Your message',
+      "submit": 'Submit',
+      "rights": '2024 su1i4. All rights reserved.',
+      "site": 'About this website',
+      "infoSite": 'built with React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS, Framer Motion, React Email & Resend, Vercel hosting.',
       "projectsList": {
         "bsmart": {
           "title": "Buisiness smart",
-          "description": 'Business Smart is a powerful business management system that provides all the necessary tools for automating accounting, finance, logistics and personnel management. The platform allows you to work with real tax documents, ensuring compliance with legal requirements and simplifying interaction with government agencies. Ideal for businesses of any size, providing flexible solutions for process optimization and real-time analytics.'
+          "description": 'Business Smart is a business management system that provides all the necessary tools for automating accounting, finance'
         },
         "dentapp": {
           "title": "DentApp",
@@ -61,6 +89,14 @@ const resources = {
           "title": 'logistic',
           "description": 'Logistic is an innovative platform that helps carriers find cargo for transportation. We unite cargo owners and transport companies, offering convenient tools for finding current offers on the transportation market.'
         }
+      },
+      "header": {
+        "Home": 'Home',
+        "About": 'About',
+        "Projects": 'Project',
+        "Skills": 'Skills',
+        "Experience": 'Experience',
+        "Contact": 'Contact'
       }
     }
   }
