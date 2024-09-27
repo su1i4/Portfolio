@@ -65,30 +65,35 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    link: 'https://apps.bsmart.kg/',
     key: 'bsmart',
     title: 'BS Smart',
     tags: ["React", "Typescript", "styled-components", "Mobx", "React Query", "antd", "react-i18next", "axios", "chart.js"],
     imageUrl: Bssmart
   },
   {
+    link: 'https://dentapp.online/prices',
     key: 'dentapp',
     title: "DentApp", 
     tags: ["React", "Tailwind", "styled-components", "Redux", "Rtk Query", "MUI", "Full Calendar"],
     imageUrl: DentApp,
   },
   {
+    link: 'https://cheber.org/',
     key: 'cheber',
     title: "Cheber",
     tags: ["TypeScript", "Next.js", "Tailwind", "Redux", "Rtk Query", "React Query", "MUI", "eslint"],
     imageUrl: Cheber,
   },
   {
+    link: 'https://www.alpha-cargo.kg/',
     key: 'alphacargo',
     title: "Alpha Cargo",
     tags: ["TypeScript", "Next.js", "Tailwind", "Framer"],
     imageUrl: Aplha,
   },
   {
+    link: 'https://logistickg.com/',
     key: 'logistic',
     title: "Logistic",
     tags: ["NextJs", "NodeJs", "Next Ui", "Framer", "Tailwind"],

@@ -22,6 +22,7 @@ export default function Projects() {
               description={t(`projectsList.${project.key}.description`)}
               imageUrl={project.imageUrl}
               tags={project.tags}
+              link={project.link}
             />
           </React.Fragment>
         ))}
